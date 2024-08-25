@@ -1,0 +1,166 @@
+Compiling 34 files with Solc 0.8.26
+Solc 0.8.26 finished in 2.43s
+Compiler run successful!
+Analysing contracts...
+Running tests...
+
+Ran 6 tests for test/unit/PugTokenTest.t.sol:PugTokenTest
+[PASS] testBurnPug() (gas: 26260)
+[PASS] testInitialSupplyCreditedToOwner() (gas: 11582)
+[PASS] testMintPug() (gas: 26282)
+[PASS] testNameAndSymbolOfTokenIsCorrect() (gas: 19407)
+[PASS] testOwnerIsCorrect() (gas: 11189)
+[PASS] testTransferPug() (gas: 44091)
+Suite result: ok. 6 passed; 0 failed; 0 skipped; finished in 2.26ms (1.94ms CPU time)
+
+Ran 1 test suite in 5.85ms (2.26ms CPU time): 6 tests passed, 0 failed, 0 skipped (6 total tests)
+Uncovered for script/DeployPugToken.s.sol:
+
+Uncovered for src/PugToken.sol:
+- Function "" (location: source ID 32, line 7, chars 237-364, hits: 0)
+- Line (location: source ID 32, line 8, chars 326-357, hits: 0)
+- Statement (location: source ID 32, line 8, chars 326-357, hits: 0)
+
+Anchors for Contract "IERC20Metadata" (solc 0.8.26, source ID 28):
+
+Anchors for Contract "Constants" (solc 0.8.26, source ID 30):
+
+Anchors for Contract "StdChains" (solc 0.8.26, source ID 3):
+
+Anchors for Contract "console" (solc 0.8.26, source ID 15):
+
+Anchors for Contract "stdJson" (solc 0.8.26, source ID 7):
+
+Anchors for Contract "MockERC721" (solc 0.8.26, source ID 22):
+
+Anchors for Contract "Test" (solc 0.8.26, source ID 13):
+
+Anchors for Contract "ERC20" (solc 0.8.26, source ID 26):
+
+Anchors for Contract "stdMath" (solc 0.8.26, source ID 8):
+
+Anchors for Contract "VmSafe" (solc 0.8.26, source ID 14):
+
+Anchors for Contract "IERC721Enumerable" (solc 0.8.26, source ID 19):
+
+Anchors for Contract "Ownable" (solc 0.8.26, source ID 24):
+
+Anchors for Contract "IERC20Errors" (solc 0.8.26, source ID 25):
+
+Anchors for Contract "Context" (solc 0.8.26, source ID 29):
+
+Anchors for Contract "IERC721TokenReceiver" (solc 0.8.26, source ID 19):
+
+Anchors for Contract "stdToml" (solc 0.8.26, source ID 11):
+
+Anchors for Contract "StdInvariant" (solc 0.8.26, source ID 6):
+
+Anchors for Contract "StdCheats" (solc 0.8.26, source ID 4):
+
+Anchors for Contract "CommonBase" (solc 0.8.26, source ID 0):
+
+Anchors for Contract "IERC721Errors" (solc 0.8.26, source ID 25):
+
+Anchors for Contract "StdStyle" (solc 0.8.26, source ID 10):
+
+Anchors for Contract "PugToken" (solc 0.8.26, source ID 32):
+- IC 5 -> Item 0
+- Runtime code
+  - Refers to item: Function "" (location: source ID 32, line 7, chars 237-364, hits: 0)
+- IC 324 -> Item 1
+- Runtime code
+  - Refers to item: Line (location: source ID 32, line 8, chars 326-357, hits: 0)
+- IC 324 -> Item 2
+- Runtime code
+  - Refers to item: Statement (location: source ID 32, line 8, chars 326-357, hits: 0)
+- IC 571 -> Item 3
+- Creation code
+  - Refers to item: Function "mint" (location: source ID 32, line 11, chars 370-459, hits: 1)
+- IC 1280 -> Item 4
+- Creation code
+  - Refers to item: Line (location: source ID 32, line 12, chars 427-452, hits: 1)
+- IC 1280 -> Item 5
+- Creation code
+  - Refers to item: Statement (location: source ID 32, line 12, chars 427-452, hits: 1)
+- IC 425 -> Item 6
+- Creation code
+  - Refers to item: Function "burn" (location: source ID 32, line 14, chars 464-553, hits: 1)
+- IC 979 -> Item 7
+- Creation code
+  - Refers to item: Line (location: source ID 32, line 15, chars 521-546, hits: 1)
+- IC 979 -> Item 8
+- Creation code
+  - Refers to item: Statement (location: source ID 32, line 15, chars 521-546, hits: 1)
+
+Anchors for Contract "stdError" (solc 0.8.26, source ID 5):
+
+Anchors for Contract "stdStorageSafe" (solc 0.8.26, source ID 9):
+
+Anchors for Contract "StdUtils" (solc 0.8.26, source ID 12):
+
+Anchors for Contract "StdCheatsSafe" (solc 0.8.26, source ID 4):
+
+Anchors for Contract "StdAssertions" (solc 0.8.26, source ID 2):
+
+Anchors for Contract "PugTokenTest" (solc 0.8.26, source ID 33):
+
+Anchors for Contract "IERC20" (solc 0.8.26, source ID 18):
+
+Anchors for Contract "ScriptBase" (solc 0.8.26, source ID 0):
+
+Anchors for Contract "MockERC20" (solc 0.8.26, source ID 21):
+
+Anchors for Contract "safeconsole" (solc 0.8.26, source ID 23):
+
+Anchors for Contract "Vm" (solc 0.8.26, source ID 14):
+
+Anchors for Contract "Script" (solc 0.8.26, source ID 1):
+
+Anchors for Contract "IERC165" (solc 0.8.26, source ID 17):
+
+Anchors for Contract "IERC721" (solc 0.8.26, source ID 19):
+
+Anchors for Contract "IERC20" (solc 0.8.26, source ID 27):
+
+Anchors for Contract "TestBase" (solc 0.8.26, source ID 0):
+
+Anchors for Contract "stdStorage" (solc 0.8.26, source ID 9):
+
+Anchors for Contract "IMulticall3" (solc 0.8.26, source ID 20):
+
+Anchors for Contract "IERC721Metadata" (solc 0.8.26, source ID 19):
+
+Anchors for Contract "DeployPugToken" (solc 0.8.26, source ID 31):
+- IC 100 -> Item 9
+- Creation code
+  - Refers to item: Function "run" (location: source ID 31, line 10, chars 298-488, hits: 6)
+- IC 214 -> Item 10
+- Creation code
+  - Refers to item: Line (location: source ID 31, line 11, chars 351-370, hits: 6)
+- IC 214 -> Item 11
+- Creation code
+  - Refers to item: Statement (location: source ID 31, line 11, chars 351-370, hits: 6)
+- IC 309 -> Item 12
+- Creation code
+  - Refers to item: Line (location: source ID 31, line 12, chars 380-428, hits: 6)
+- IC 309 -> Item 13
+- Creation code
+  - Refers to item: Statement (location: source ID 31, line 12, chars 380-428, hits: 6)
+- IC 323 -> Item 14
+- Creation code
+  - Refers to item: Statement (location: source ID 31, line 12, chars 400-428, hits: 6)
+- IC 412 -> Item 15
+- Creation code
+  - Refers to item: Line (location: source ID 31, line 13, chars 438-456, hits: 6)
+- IC 412 -> Item 16
+- Creation code
+  - Refers to item: Statement (location: source ID 31, line 13, chars 438-456, hits: 6)
+- IC 507 -> Item 17
+- Creation code
+  - Refers to item: Line (location: source ID 31, line 14, chars 466-481, hits: 6)
+- IC 507 -> Item 18
+- Creation code
+  - Refers to item: Statement (location: source ID 31, line 14, chars 466-481, hits: 6)
+
+Anchors for Contract "IERC1155Errors" (solc 0.8.26, source ID 25):
+
